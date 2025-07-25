@@ -1,6 +1,6 @@
 
 import './App.css'
-import About from './components/About'
+import About from './components/about/About'
 import Location from './components/Location'
 
 import Contact from './components/contact/Contact'
