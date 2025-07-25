@@ -7,7 +7,7 @@ import Contact from './components/contact/contact'
 import Counter from './components/counter/Counter'
 import Navbar from './components/navbar/Navbar'
 import { Routes, Route } from 'react-router-dom';
-import Project from './components/project/project'
+import Project from './components/project/Project'
 
 import Home  from './components/home/home'
 import Login from './components/login/login'
