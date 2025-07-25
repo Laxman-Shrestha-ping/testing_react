@@ -1,0 +1,52 @@
+.container{
+  border: 20px solid black ;
+  margin: 30px 10px 5px 2px;
+  padding: 20px;
+}
+.container1 {
+  border: 20px solid red ;
+}
+
+
+#btn{
+  background-color: red;
+  color: white;
+  margin: 20px 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+#btn:hover {
+  background-color: blue;
+  color: black;
+  cursor: pointer;
+}
+#btn:active {
+  background-color: green;
+  color: white;   
+  transform: scale(0.9);
+  transition: transform 0.1s;
+}
+#btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px blue;       
+
+  transition: box-shadow 0.2s;
+}
+#btn:disabled {
+  background-color: gray;
+  color: lightgray;
+  cursor: not-allowed;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+#btn:disabled:hover {
+  background-color: gray;   
+  color: lightgray;
+  cursor: not-allowed;  
+  transform: none;
+  transition: none;   
+} 
+            

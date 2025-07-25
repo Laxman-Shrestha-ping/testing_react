@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(31, 213, 165);
+padding: 10px 40px;
+color: blue
+
+}
+.navbar-list{
+    display: flex;
+    gap: 30px;
+font-weight: 600;
+font-size: 20px;
+
+}
+.navbar-list a{
+    text-decoration: none;
+color: aquamarine;
+}
+.navBar button{
+    border: none;
+    padding: 5px 10px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-size:12px ;
+    font-weight:600 ;
+    
+}
+.navBar button :hover{
+    background-color: aqua;
+}
+
+
