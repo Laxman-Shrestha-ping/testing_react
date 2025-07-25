@@ -1,7 +1,7 @@
 
 import './App.css'
 import About from './components/about/about'
-import Location from './components/location/Location'
+import Location from './components/location/location'
 import Contact from './components/contact/Contact'
 
 import Counter from './components/counter/Counter'
